@@ -118,12 +118,7 @@ That's it!
 
 Git is a way to represent a codebase (and changes to it) as a directed acyclic graph (DAG). The simplest possible DAG is one where each node is connected only to the next one. Such a DAG corresponds to the base case where one individual is working on one set of files with no branching:
 
-```mermaid
-graph LR
-A[Commit 1 - First commit of homework files] -->B[Commit 2 - Modify egyptian.py]
-    B --> C[Commit 3 - Modify fibonacci.py]
-    C --> D[Commit 4 - Final bug fixes]
-```
+![](https://www.dropbox.com/s/m1373zfdm91aaj4/Screen%20Shot%202020-10-01%20at%2016.39.40.png?raw=1)
 
 There are more complex commands that allow you to introduce branches, merge branches, and perform other graph manipulations. But that's for another day.
 
