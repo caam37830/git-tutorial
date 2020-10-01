@@ -114,6 +114,19 @@ That's it!
 
 *Optional*: When doing your assignments, try to make your commits as atomic as possible instead of making one big commit with all your changes. That is, if you complete all the problems within `file.py`, `git add` and `git commit -m "solved problems in file.py"`. Repeat this for each file's changes. Making your changes as atomic as possible and writing descriptive commit messages is good practice, because it means you have a very clean work tree. Any colleagues reading the history can easily revert changes you made, and it minimizes the chance of big conflicts with other people's work you have to resolve manually.
 
+## Missing the forest for the trees
+
+Git is a way to represent a codebase (and changes to it) as a directed acyclic graph (DAG). The simplest possible DAG is one where each node is connected only to the next one. Such a DAG corresponds to the base case where one individual is working on one set of files with no branching:
+
+```mermaid
+graph LR
+A[Commit 1 - First commit of homework files] -->B[Commit 2 - Modify egyptian.py]
+    B --> C[Commit 3 - Modify fibonacci.py]
+    C --> D[Commit 4 - Final bug fixes]
+```
+
+There are more complex commands that allow you to introduce branches, merge branches, and perform other graph manipulations. But that's for another day.
+
 ## Basic git cheatsheet
 
 In summary, here are the commands you should be familiar with:
@@ -130,8 +143,6 @@ In summary, here are the commands you should be familiar with:
 - See current status of your repo: `git status`
 - See a log of work tree, with commits and people who made them: `git log`
   - `git log --stat` to show which files and line numbers changed
-
-There are many others, but let's keep it simple.
 
 ## Extra resources
 
