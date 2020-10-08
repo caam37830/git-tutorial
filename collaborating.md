@@ -11,6 +11,11 @@ First, everyone should clone the same repository from GitHub
 
 If two people are working at the same time, conflicts might occur.
 
+In order to create a new branch, you can run
+```
+git checkout -b <branchname>
+```
+
 ## Merging
 
 When two people work on the same repository, they may need to merge their work together
