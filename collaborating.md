@@ -16,6 +16,8 @@ In order to create a new branch, you can run
 git checkout -b <branchname>
 ```
 
+Now, you can work in this branch without having conflicts with changes in other branches.
+
 ## Merging
 
 When two people work on the same repository, they may need to merge their work together
