@@ -109,3 +109,5 @@ This isn't actually a command, but you can create a file that will tell git to i
 secrets.txt # don't share secrets
 *~ # emacs temp files - * is a wildcard
 ```
+
+This section came from [this repository](https://github.com/icme/cme257-advanced-julia/blob/master/class/class4/class4.md)
