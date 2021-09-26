@@ -40,10 +40,10 @@ To interface with remote repositories stored on GitHub, you will also need to ma
 
 **Required**: In order to pull and push to private repos on GitHub, you will need to provide some form of authentication. The ideal solution here is to use SSH keys. Follow the [instructions here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to generate a new SSH key for your computer and add it to your GitHub account.
 
-**Required**: Check that running `git clone https://github.com/caam37830-2021/caam37830-2021.github.io.git` copies a directory called `caam37830-2021.github.io` into the directory you ran it in, and verify that you see output like the following:
+**Required**: Check that running `git clone https://github.com/caam37830/caam37830.github.io.git` copies a directory called `caam37830.github.io` into the directory you ran it in, and verify that you see output like the following:
 
 ```bash
-Cloning into 'caam37830-2021.github.io'...
+Cloning into 'caam37830.github.io'...
 remote: Enumerating objects: 56, done.
 remote: Counting objects: 100% (56/56), done.
 remote: Compressing objects: 100% (52/52), done.
@@ -53,7 +53,7 @@ Unpacking objects: 100% (56/56), done.
 
 ### Using GitHub classroom to pull your assignments
 
-Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830-2021` GitHub organization to store your work in. 
+Homeworks will be released in GitHub Classroom. Each assignment will have an URL inviting you to automatically create a private repo within the `caam37830` GitHub organization to store your work in. 
 
 Create a repo for the assignment, and go to the main page. You should see something like this, with additional files that help you:
 
